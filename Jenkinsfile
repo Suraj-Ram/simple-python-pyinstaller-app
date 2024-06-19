@@ -20,7 +20,7 @@ pipeline {
                 }
             }
         }
-        stage('Deliver') { 
+        stage('Deliver2') { 
             steps {
                 sh "pyinstaller --onefile sources/add2vals.py" 
             }
